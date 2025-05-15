@@ -1,0 +1,3 @@
+dao\Produit.class
+presentation\ProduitController.class
+metier\GestionProduit.class

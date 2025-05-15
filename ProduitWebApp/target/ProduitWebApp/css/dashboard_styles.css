@@ -1,0 +1,53 @@
+body {
+    padding-top: 56px; /* Height of the fixed navbar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Light gray background for content area */
+}
+
+.dashboard-content {
+    padding-top: 20px; /* Space below navbar */
+    padding-bottom: 60px; /* Space above footer */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border: none; /* Softer look */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.075); /* Subtle shadow */
+    margin-bottom: 1.5rem; /* Consistent spacing */
+}
+
+.card-header {
+    background-color: #ffffff; /* Cleaner card header */
+    border-bottom: 1px solid #e9ecef; /* Lighter border */
+    font-weight: 500;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e9ecef !important; /* Slightly darker footer */
+    border-top: 1px solid #dee2e6;
+}
+
+/* For demo purposes, make placeholder images more distinct */
+img[src*="via.placeholder.com"] {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Specific card color adjustments for better readability if needed */
+.card.bg-primary .card-title, .card.bg-primary .card-text { color: white; }
+.card.bg-info .card-title, .card.bg-info .card-text { color: white; }
+.card.bg-success .card-title, .card.bg-success .card-text { color: white; }
+.card.bg-warning .card-title, .card.bg-warning .card-text { color: #212529; } /* Dark text on yellow for better contrast */
+.card.bg-danger .card-title, .card.bg-danger .card-text { color: white; }
+
+/* Button consistency */
+.btn {
+    border-radius: 0.25rem; /* Consistent border radius */
+}
